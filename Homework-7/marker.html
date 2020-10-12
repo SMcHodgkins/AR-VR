@@ -8,8 +8,8 @@
       document
         .querySelector(".say-hi-button")
         .addEventListener("click", function () {
-          window.location = 'https://smchodgkins.github.io/AR-VR/Homework-7/';
-          alert("Hi there!");
+          window.location.replace("https://smchodgkins.github.io/AR-VR/Homework-7/");
+          alert("Returning");
         });
     };
   </script>
@@ -45,7 +45,7 @@
     <a-entity camera></a-entity>
   </a-scene>
   <div class="buttons">
-  <button class="say-hi-button"></button>
+  <button class="say-hi-button">Home</button>
 </div>
 </body>
 
